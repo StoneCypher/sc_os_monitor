@@ -1,0 +1,15 @@
+%% -*- mode: erlang -*-
+{application, sc_os_monitor,
+ [
+  {description, "Simple OS monitoring tools for systems with top"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  %% uncomment if this is an active application
+  %% {mod, { example_project_app, []}},
+  {env, []}
+ ]}.
+%% vim: set filetype=erlang tabstop=2
