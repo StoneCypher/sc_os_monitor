@@ -1,0 +1,4 @@
+%% encoding: UTF-8
+{application,sc_os_monitor}.
+{packages,[]}.
+{modules,[sc_os_monitor]}.
