@@ -17,4 +17,4 @@
 
 top_once() ->
 
-    os:cmd("top -n 1 -b").
+    sc:to_lines(os:cmd("top -n 1 -b")).
